@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { LoginForm } from '../components/loginForm/LoginForm';
 
-export const LoginPage=()=> {
+export default function LoginPage() {
   return (
     <div>
       <Helmet>

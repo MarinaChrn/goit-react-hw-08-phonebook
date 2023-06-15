@@ -7,7 +7,7 @@ import { ContactForm } from 'components/contactForm/ContactForm';
 import { FilterContacts } from 'components/filter/FilterContacts';
 import { ContactList } from 'components/contactList/ContactList';
 
-export const ContactsPage=()=> {
+export default function ContactsPage() {
    const dispatch = useDispatch();
   const filter = useSelector(state => state.filter.searchValue)
   const contacts = useSelector(state => state.contacts.items)

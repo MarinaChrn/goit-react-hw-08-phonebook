@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { RegisterForm } from '../components/registerForm/RegisterForm';
 
-export const RegisterPage=()=> {
+export default function RegisterPage() {
   return (
     <div>
       <Helmet>
